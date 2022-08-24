@@ -1,0 +1,9 @@
+.description {
+  max-width: 460px;
+  width: 100%;
+  margin: 0;
+  opacity: 70%;
+  
+  font-size: 18px;
+  line-height: 1.28;
+}
