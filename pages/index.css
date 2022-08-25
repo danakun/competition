@@ -28,6 +28,7 @@
 @import url(../blocks/cycling-discipline/__cards/cycling-discipline__cards.css);
 @import url(../blocks/cycling-discipline/__cards-item/cycling-discipline__cards-item.css);
 @import url(../blocks/cycling-discipline/__card/cycling-discipline__card.css);
+
 @import url(../blocks/main/lead/lead.css);
 
 @import url(../blocks/regular-margins/regular-margins.css);
@@ -78,24 +79,3 @@
 @import url(../blocks/form/__input-container/form__input-container.css);
 @import url(../blocks/form/__item/form__item.css);
 
-@import url(../blocks/lead/lead.css);
-@import url(../blocks/title/title.css);
-@import url(../blocks/title/_place/title_place_lead.css);
-@import url(../blocks/description/description.css);
-@import url(../blocks/description/_place/description_place_lead.css);
-@import url(../blocks/lead/__button/lead__button.css);
-@import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__bike-label/lead__bike-label.css);
-@import url(../blocks/lead/__line/lead__line.css);
-@import url(../blocks/lead/__sticky-bike/lead__sticky-bike.css);
-@import url(../blocks/merks/merks.css);
-@import url(../blocks/merks/__picture/merks__picture.css);
-@import url(../blocks/merks/__quote/merks__quote.css);
-@import url(../blocks/merks/__quote-author/merks__quote-author.css);
-@import url(../blocks/merks/__quote-subtitle/merks__quote-subtitle.css);
-@import url(../blocks/cycling-discipline/cycling-discipline.css);
-@import url(../blocks/title/_place/title_place_cycling-discipline.css);
-@import url(../blocks/description/_place/description_place_cycling-discipline.css);
-@import url(../blocks/cycling-discipline/__cards/cycling-discipline__cards.css);
-@import url(../blocks/cycling-discipline/__cards-item/cycling-discipline__cards-item.css);
-@import url(../blocks/cycling-discipline/__card/cycling-discipline__card.css);
