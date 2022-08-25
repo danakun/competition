@@ -6,3 +6,8 @@
     display: block;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 450px) {
+    .bikes__image  {
+        padding: 14px;
+  }

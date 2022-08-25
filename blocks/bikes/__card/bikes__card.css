@@ -1,4 +1,6 @@
 .bikes__card {
+    list-style-type: none;
+    
     border-radius: 20px;
     filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.11));
     position: relative;

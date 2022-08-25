@@ -25,3 +25,9 @@
 }
    
 
+@media screen and (max-width: 450px) {
+    .bikes__model {
+        font-size: 14px;
+        line-height: 1.25;
+    }
+}
