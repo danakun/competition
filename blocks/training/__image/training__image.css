@@ -1,0 +1,14 @@
+.training__image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+
+    grid-area: image;
+}
+
+@media screen and (max-width: 858px) {
+    .training__image {
+        order: 1;
+    }
+}

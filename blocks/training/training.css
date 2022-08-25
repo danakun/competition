@@ -1,0 +1,23 @@
+.training {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px auto;
+    grid-template-areas:
+    "header image"
+    "content image";
+    column-gap: 30px;
+
+    padding-top: 150px;
+}
+
+
+@media screen and (max-width: 858px) {
+    .training {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+
+        border-top: 1px solid #E3E3E3;
+    }
+}
+

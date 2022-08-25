@@ -1,0 +1,5 @@
+.training__links {
+    /*justify-self: flex-end;*/
+    display: flex;
+    gap: 30px;
+}

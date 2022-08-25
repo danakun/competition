@@ -1,0 +1,13 @@
+.training__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    grid-area: content; 
+}
+
+@media screen and (max-width: 858px) {
+    .training__content {
+        order: 2;
+    }
+}
