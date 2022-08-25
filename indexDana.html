@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Bikes</title>
+</head>
+<body class="root">
+  <header class="header">
+    <nav>
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#" target="_blank">Покрытия и градиенты</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#" target="_blank">Велосипеды</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#" target="_blank">Тренировки</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="lead">
+      <div class="lead__title-and-description">
+        <h1 class="title title_place_lead">
+          Шоссе,&nbsp;ТТ и&nbsp;Грэвел
+        </h1>
+        <p class="lead__description">
+          Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
+        </p>
+        <button class="lead__button">
+          Подробнее
+        </button>
+        <p class="lead__bike-label">
+          Cannondale Systemsix
+          <span class="lead__line"></span>
+        </p>
+      </div>
+      <img class="lead__image" src="./images/lead.jpg" alt="Дорога через лес и горы">
+    </section>
+    <section class="merks">
+      <img class="merks__picture" src="./images/eddie_merks.png" alt="Шоссе и горы">
+      <blockquote class="merks__quote">
+        «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+        <div class="merks__quote-author-and-subtitle">
+          <p class="merks__quote-author">Эдди Меркс</p>
+          <p class="merks__quote-subtitle">Велогонщик</p>
+        </div>
+      </blockquote>
+    </section>
+    <section class="bikes">
+<h2 class="title title_place_bikes">Велосипеды</h2>
+<nav class="bikes__filters">
+  <a href="#" class="bikes__filter bikes__filter_selected">Шоссе</a>
+  <a href="#" class="bikes__filter">Грэвел</a>
+  <a href="#" class="bikes__filter">ТТ</a>
+</nav>
+<div class="bikes__cards">
+  <div class="bikes__card">
+    <img class="bikes__image" src="./images/cervelo.jpg" alt="Шоссейный велосипед Cervelo.">
+    <h3 class="bikes__model">Cervelo Caledonia-5</h3>
+  </div>
+  <div class="bikes__card">
+    <img class="bikes__image" src="./images/cannondale.png" alt="Шоссейный велосипед Cannondale.">
+    <h3 class="bikes__model">Cannondale Systemsix Himod</h3>
+  </div>
+  <div class="bikes__card">
+    <img class="bikes__image" src="./images/cervelo.jpg" alt="Шоссейный велосипед Trek.">
+    <h3 class="bikes__model">Trek Domane SL-7</h3>
+  </div>
+</div>
+    </section>
+    <section class="training">
+      <div class="training__content">
+        <h2 class="title title_place_training">Тренировки</h2>
+        <p class="description description_place_training">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+        <div class="training__links">
+          <a class="training__link">Strava</a>
+          <a class="training__link">Komoot</a>
+        </div>
+        <img class="training__image" src="./images/trainings.jpg" alt="Асфальтированная дорога в хвойном лесу.">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="footer__container">
+    <form class="form">
+      <h2 class="form__heading">Подпишитесь на рассылку —</h2>
+      <fieldset class="form__input-container">
+        <input type="email" class="form__item form__item_el_email"> 
+        </fieldset>
+    </form>
+    <a class="footer__copyright">© Road Club 2021</a>
+  </div>
+  </footer>
+</body>
+</html>
