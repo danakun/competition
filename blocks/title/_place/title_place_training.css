@@ -1,0 +1,9 @@
+.title_place_training {
+    grid-area: header;
+}
+
+@media screen and (max-width: 858px) {
+    .title_place_training {
+        padding-bottom: 50px;
+    }
+}

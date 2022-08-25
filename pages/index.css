@@ -6,9 +6,19 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/main/lead/lead.css);
+
+@import url(../blocks/regular-margins/regular-margins.css);
+
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_place/title_place_lead.css);
-@import url(../blocks/main/lead/__description/lead__description.css);
+@import url(../blocks/title/_place/title_place_bikes.css);
+@import url(../blocks/title/_place/title_place_training.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/_place/description_place_training.css);
+
+@import url(../blocks/main/lead/__description/lead__description.css);  /*это наверное надо изменить как наверху*/
+
 @import url(../blocks/main/lead/__button/lead__button.css);
 @import url(../blocks/main/lead/__image/lead__image.css);
 @import url(../blocks/main/lead/__bike-label/lead__bike-label.css);
@@ -18,3 +28,30 @@
 @import url(../blocks/main/merks/__quote/merks__quote.css);
 @import url(../blocks/main/merks/__quote-author/merks__quote-author.css);
 @import url(../blocks/main/merks/__quote-subtitle/merks__quote-subtitle.css);
+
+@import url(../blocks/bikes/bikes.css);
+@import url(../blocks/bikes/__heading/bikes__heading.css);
+@import url(../blocks/bikes/__filters/bikes__filters.css);
+@import url(../blocks/bikes/__filter/bikes__filter.css);
+@import url(../blocks/bikes/__filter/_selected/bikes__filter_selected.css);
+@import url(../blocks/bikes/__cards/bikes__cards.css);
+@import url(../blocks/bikes/__card/bikes__card.css);
+@import url(../blocks/bikes/__link/bikes__link.css);
+@import url(../blocks/bikes/__image/bikes__image.css);
+@import url(../blocks/bikes/__model/bikes__model.css);
+
+@import url(../blocks/training/training.css);
+@import url(../blocks/training/__content/training__content.css);
+@import url(../blocks/training/__links/training__links.css);
+@import url(../blocks/training/__link/training__link.css);
+@import url(../blocks/training/__image/training__image.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__item/form__item.css);
+
