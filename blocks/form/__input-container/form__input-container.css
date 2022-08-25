@@ -7,7 +7,12 @@
 
   @media screen and (max-width: 858px) {
     .form__input-container {
-      max-width: 100%;
+      max-width: 300px;
     }
 }
  
+ @media screen and (max-width: 450px) {
+  .form__input-container {
+    max-width: 284px;
+  }
+ }
