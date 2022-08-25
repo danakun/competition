@@ -1,0 +1,6 @@
+.cycling-discipline__cards {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
