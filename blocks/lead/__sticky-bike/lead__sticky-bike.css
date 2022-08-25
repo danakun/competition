@@ -1,0 +1,11 @@
+.lead__sticky-bike {
+  position: sticky;
+  top: 347px;
+
+  margin-bottom: 79px;
+  width: 440px;
+  max-width: 440px;
+  height: 300px;
+  max-height: 300px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);;
+}

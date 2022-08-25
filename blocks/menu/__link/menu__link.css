@@ -4,4 +4,10 @@
   font-size: 14px;
   line-height: 1.06;
   text-decoration: none;
+
+  transition: ease-out 0.2s;
+}
+
+.menu__link:hover {
+  opacity: .75;
 }

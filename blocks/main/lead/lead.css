@@ -1,5 +1,0 @@
-.lead {
-  display: grid;
-  grid-template-columns: 1fr fit-content(610px);
-  padding: 20px 0 0 8.33%;
-}
