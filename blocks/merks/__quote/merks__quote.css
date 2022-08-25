@@ -11,3 +11,9 @@
   font-size: 34px;
   line-height: 1.06;
 }
+
+@media screen and (max-width: 858px) {
+  .merks__quote {
+    margin-top: 20px;
+  }
+}

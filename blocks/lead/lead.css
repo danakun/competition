@@ -1,9 +1,15 @@
 .lead {
   display: flex;
   min-height: 836px;
-  padding: 20px 0 20px 8.33%;
+  padding-left: 8.33%;
   background-image: url(../../images/lead.jpg);
   background-repeat: no-repeat;
-  background-size: 42.36% 100%;
-  background-position: 100%;
+  background-size: 42.36% auto;
+  background-position: top right;
+}
+
+@media screen and (max-width: 858px) {
+  .lead {
+    min-height: 500px;
+  }
 }
