@@ -5,9 +5,20 @@
   column-gap: 5.55%;
 }
 
+
+
 @media screen and (max-width: 858px) {
   .merks {
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #E3E3E3;
+    padding-top: 40px;
+  }
+  }
+
+
+@media screen and (max-width: 450px) {
+  .merks {
+    padding-top: 20px;
   }
 }
