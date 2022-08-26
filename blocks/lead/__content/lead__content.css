@@ -1,0 +1,9 @@
+.lead__content {
+    grid-area: content;
+}
+
+@media screen and (max-width: 858px) {
+    .lead__content {
+     order: 2;
+    }
+  }

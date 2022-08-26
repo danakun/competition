@@ -1,4 +1,4 @@
-.lead {
+/*.lead {
   display: flex;
   min-height: 836px;
   padding-left: 8.33%;
@@ -11,5 +11,36 @@
 @media screen and (max-width: 858px) {
   .lead {
     min-height: 500px;
+  }
+} 
+*/
+
+.lead {
+  display: grid;
+  grid-template-columns: auto 60%;
+  grid-template-rows: 170px auto;
+  grid-template-areas:
+  "header image"
+  "content image";
+  column-gap: 30px;
+
+  /*min-height: 856px;*/
+ 
+  width: calc(100% - 2*120px);
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 858px) {
+  .lead {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 2*60px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead {
+    width: calc(100% - 2*18px);
   }
 }
