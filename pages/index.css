@@ -4,6 +4,7 @@
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/regular-margins/regular-margins.css);
+@import url(../blocks/lead-margins/lead-margins.css);
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_place/title_place_lead.css);
@@ -23,7 +24,6 @@
 @import url(../blocks/menu/__link/menu__link.css);
 
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/margin-lead/margin-lead.css);
 @import url(../blocks/lead/__content/lead__content.css);
 @import url(../blocks/lead/__button-visible/lead__button-visible.css);
 @import url(../blocks/lead/__button-text/__button-text.css);

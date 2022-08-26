@@ -5,7 +5,11 @@
   column-gap: 5.55%;
 }
 
-
+@media screen and (max-width: 1172px) {
+  .merks {
+    grid-template-columns: fit-content(650px) 50%;
+  }
+}
 
 @media screen and (max-width: 858px) {
   .merks {

@@ -6,11 +6,14 @@
   "header image"
   "content image";
   column-gap: 30px;
+}
 
-  /*min-height: 856px;*/
- 
-  width: calc(100% - 2*120px);
-  margin: 0 auto;
+
+@media screen and (max-width: 1172px) {
+  .lead {
+    grid-template-columns: auto 50%;
+    column-gap: 18px;
+  }
 }
 
 
@@ -18,12 +21,6 @@
   .lead {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 2*60px);
   }
 }
 
-@media screen and (max-width: 450px) {
-  .lead {
-    width: calc(100% - 2*18px);
-  }
-}
