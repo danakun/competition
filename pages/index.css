@@ -13,7 +13,7 @@
 @import url(../blocks/description/_place/description_place_lead.css);
 @import url(../blocks/lead/__button/lead__button.css);
 /*@import url(../blocks/lead/__button-wrapper/lead__button-wrapper.css);*/
-@import url(../blocks/lead/__image/lead__image.css);
+
 @import url(../blocks/lead/__bike-label/lead__bike-label.css);
 @import url(../blocks/lead/__line/lead__line.css);
 @import url(../blocks/lead/__sticky-bike/lead__sticky-bike.css);
@@ -41,17 +41,20 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/_place/description_place_training.css);
 
-@import url(../blocks/main/lead/__description/lead__description.css);  /*это наверное надо изменить как наверху*/
-
+/*@import url(../blocks/main/lead/__description/lead__description.css);  это наверное надо изменить как наверху*/
+@import url(../blocks/lead/__content/lead__content.css);
 @import url(../blocks/main/lead/__button/lead__button.css);
 @import url(../blocks/main/lead/__image/lead__image.css);
 @import url(../blocks/main/lead/__bike-label/lead__bike-label.css);
 @import url(../blocks/main/lead/__line/lead__line.css);
+@import url(../blocks/lead/__wrap/lead__wrap.css);
+
 @import url(../blocks/main/merks/merks.css);
 @import url(../blocks/main/merks/__picture/merks__picture.css);
 @import url(../blocks/main/merks/__quote/merks__quote.css);
 @import url(../blocks/main/merks/__quote-author/merks__quote-author.css);
 @import url(../blocks/main/merks/__quote-subtitle/merks__quote-subtitle.css);
+
 
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__heading/bikes__heading.css);
