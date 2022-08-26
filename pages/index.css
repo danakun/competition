@@ -18,14 +18,10 @@
 @import url(../blocks/description/_place/description_place_lead.css);
 
 @import url(../blocks/lead/__button/lead__button.css);
-<<<<<<< HEAD
 @import url(../blocks/lead/__button-visible/lead__button-visible.css);
 @import url(../blocks/lead/__button-text/__button-text.css);
 @import url(../blocks/lead/__image/lead__image.css);
-=======
 /*@import url(../blocks/lead/__button-wrapper/lead__button-wrapper.css);*/
-
->>>>>>> 88c70a48caafd6804a4b1ccf71f0de4ebfd1a11a
 @import url(../blocks/lead/__bike-label/lead__bike-label.css);
 @import url(../blocks/lead/__line/lead__line.css);
 @import url(../blocks/lead/__sticky-bike/lead__sticky-bike.css);
