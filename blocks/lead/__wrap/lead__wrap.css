@@ -9,6 +9,8 @@
     grid-area: image;
     position: relative;
     order: 1;
+
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 858px) {
