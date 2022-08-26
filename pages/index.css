@@ -1,27 +1,36 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/root/root.css);
+
 @import url(../blocks/header/header.css);
+
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
+
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/margin-lead/margin-lead.css);
+
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_place/title_place_lead.css);
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/_place/description_place_lead.css);
+
 @import url(../blocks/lead/__button/lead__button.css);
-/*@import url(../blocks/lead/__button-wrapper/lead__button-wrapper.css);*/
+@import url(../blocks/lead/__button-visible/lead__button-visible.css);
+@import url(../blocks/lead/__button-text/__button-text.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__bike-label/lead__bike-label.css);
 @import url(../blocks/lead/__line/lead__line.css);
 @import url(../blocks/lead/__sticky-bike/lead__sticky-bike.css);
+
 @import url(../blocks/merks/merks.css);
 @import url(../blocks/merks/__picture/merks__picture.css);
 @import url(../blocks/merks/__quote/merks__quote.css);
 @import url(../blocks/merks/__quote-author/merks__quote-author.css);
 @import url(../blocks/merks/__quote-subtitle/merks__quote-subtitle.css);
+
 @import url(../blocks/cycling-discipline/cycling-discipline.css);
 @import url(../blocks/title/_place/title_place_cycling-discipline.css);
 @import url(../blocks/description/_place/description_place_cycling-discipline.css);
