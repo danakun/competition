@@ -2,18 +2,24 @@
   position: sticky;
   top: 347px;
 
-  margin: 0 0 79px 50px;
+  margin-bottom: 79px;
   width: 100%;
   max-width: 440px;
-  height: 100%;
   max-height: 300px;
   border-radius: 4.5%;
   box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width: 1280px) {
+  .lead__sticky-bike {
+    max-width: calc(100% - 200px);
+  }
+}
+
+
 @media screen and (max-width: 858px) {
   .lead__sticky-bike {
-    top: 200px;
-    margin: 0 0 0 50px;
+    max-width: 236px;
+    max-height: 160px;
   }
 }

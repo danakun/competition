@@ -1,3 +1,9 @@
 .description_place_cycling-discipline {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 858px) {
+  .description_place_cycling-discipline {
+      order: 2;
+  }
 }

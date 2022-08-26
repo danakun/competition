@@ -7,6 +7,15 @@
 
 @media screen and (max-width: 858px) {
   .merks__quote-author {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .merks__quote-author {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+

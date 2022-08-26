@@ -1,3 +1,16 @@
 .cycling-discipline__cards-item {
   list-style: none;
 }
+
+@media screen and (max-width: 858px) {
+    .cycling-discipline__cards-item:last-of-type {
+        display: none;
+  }
+    .cycling-discipline__cards-item {
+        order: 1;
+        max-width: initial;
+        max-height: initial;
+    }
+ }
+
+
