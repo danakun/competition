@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 450px) {
     .regular-margins {
-        width: 284px;
-        margin: auto;
+        width: calc(100% - 2*18px);
     }
 }

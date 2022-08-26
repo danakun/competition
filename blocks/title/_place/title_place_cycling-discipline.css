@@ -5,5 +5,12 @@
 @media screen and (max-width: 858px) {
   .title_place_cycling-discipline {
     margin: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title_place_cycling-discipline {
+    padding-bottom: 40px;
   }
 }

@@ -14,3 +14,9 @@
     margin: 50px 0 0;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .lead__bike-label {
+    display: none;
+  }
+}

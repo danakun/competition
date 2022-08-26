@@ -10,10 +10,21 @@
   font-weight: 600;
   font-size: 34px;
   line-height: 1.06;
+  letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 858px) {
   .merks__quote {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .merks__quote {
+    font-size: 23px;
+    line-height: 1.3;
+
+  }
+}
+
+
