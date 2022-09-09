@@ -10,4 +10,4 @@
 * командная работа в git;
 * создание и слияние веток в git.
 
-[Ссылка:] (https://github.com/danakun/competition)﻿
+[Ссылка:] (https://danakun.github.io/competition/)﻿
